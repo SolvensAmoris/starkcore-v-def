@@ -29,7 +29,11 @@
   .highlight{border:2px solid #fff;box-shadow:0 0 20px rgba(255,255,255,0.2);position:relative;background:#0e0e0e}
   .highlight-label{position:absolute;top:-14px;right:-2px;background:#fff;color:#000;font-size:10px;padding:4px 10px;font-weight:700}
   .starkcol{background:#101010;font-weight:900}
-  .video-box{margin-top:80px;border:1px solid #333;padding:40px;text-align:center;color:#666}
+  .video-box{margin-top:80px;border:1px solid #333;padding:40px;background:#050505;min-height:220px;display:flex;flex-direction:column;justify-content:center;align-items:center}
+  #loop-line{font-size:14px;color:#888;letter-spacing:1px;transition:opacity 0.3s;min-height:20px}
+  #loop-main{font-size:clamp(16px,3vw,22px);font-weight:700;color:#fff;margin:12px 0;letter-spacing:1px;transition:opacity 0.3s}
+  .blink{animation:blink 1s infinite}
+  @keyframes blink{0%,50%{opacity:1}51%,100%{opacity:0}}
   footer{margin-top:64px;border-top:1px solid #222;padding-top:16px;font-size:10px;color:#666;letter-spacing:1px;text-transform:uppercase;line-height:1.6}
   @media(max-width:800px){table{font-size:11px}th,td{padding:10px 6px}.cta{flex-direction:column}}
 </style>
@@ -41,49 +45,27 @@
     <strong>STARKCORE // V-DEF // DEFENSE OPERATIONS</strong>
     <div style="display:flex;gap:24px"><span>PLATFORM</span><span style="color:#fff">MANIFESTO</span><span style="color:#fff">CONTACT</span></div>
   </header>
-
   <div class="badges">
     <div class="badge">[ DETERMINISTIC ]</div>
     <div class="badge">[ IMMUTABLE ]</div>
     <div class="badge">[ VERIFIABLE ]</div>
   </div>
-
   <h1>The industry detects. StarkCore enforces.</h1>
   <p class="sub">
     Wazuh, Tripwire, Defender, Chronicle detect changes and alert. StarkCore rejects and restores automatically.<br>
     An autonomous auditor, not a monitoring system.
   </p>
-
   <div class="cta">
     <a class="btn" href="mailto:you@starkcore.tech">[ REQUEST ACCESS ]</a>
     <a class="btn" href="https://github.com/SolvensAmoris/starkcore-v-def#readme">[ READ MANIFESTO ]</a>
   </div>
-
   <div class="sep">=========================== COMPARISON — DETECT VS ENFORCE ===========================</div>
-
   <div style="overflow-x:auto;padding-top:20px">
   <table>
-    <tr>
-      <th>CAPABILITY</th><th>WAZUH</th><th>TRIPWIRE</th><th>DEFENDER</th><th>CHRONICLE</th>
-      <th class="highlight"><div class="highlight-label">[ HIGHLIGHTED — V-DEF ]</div>STARKCORE V-DEF ★</th>
-    </tr>
+    <tr><th>CAPABILITY</th><th>WAZUH</th><th>TRIPWIRE</th><th>DEFENDER</th><th>CHRONICLE</th><th class="highlight"><div class="highlight-label">[ HIGHLIGHTED — V-DEF ]</div>STARKCORE V-DEF ★</th></tr>
     <tr><td>Detection / Alert</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td><td class="starkcol">✓</td></tr>
     <tr><td>Response / Action</td><td>—</td><td>—</td><td>Limited</td><td>—</td><td class="starkcol">AUTOMATIC (AUTONOMOUS)</td></tr>
     <tr><td>Auto Remediation</td><td>—</td><td>—</td><td>—</td><td>—</td><td class="starkcol">YES — RESTORE TO BASELINE (&lt; 5s)</td></tr>
     <tr><td>Immutable Audit Log</td><td>—</td><td>✓</td><td>—</td><td>✓</td><td class="starkcol">YES — CRYPTO-VERIFIABLE</td></tr>
     <tr><td>Autonomous Operation</td><td>—</td><td>—</td><td>—</td><td>—</td><td class="starkcol">YES — SELF-ENFORCING</td></tr>
-    <tr><td>Time to Restore</td><td>MANUAL</td><td>MANUAL</td><td>MANUAL</td><td>MANUAL</td><td class="starkcol">&lt; 5 SECONDS — AUTOMATIC</td></tr>
-  </table>
-  </div>
-
-  <div class="video-box">
-    [ VIDEO LOOP HERE: file_tampered.mp4 → starkcore_restores.mp4 → immutable_log.json ]<br><br>
-    <span style="color:#fff">DO NOT MONITOR. ENFORCE.</span>
-  </div>
-
-  <footer>
-    STARKCORE V-DEF v1.0 // SITE CODE MIT / CORE PRIVATE • BUILT FOR CONTINUOUS ASSURANCE • DEFENSE-GRADE • SEC// CLASS 0001 • AUDIT: IMMUTABLE | VERIFIABLE | DETERMINISTIC
-  </footer>
-</div>
-</body>
-</html>
+    <tr><td>Time to Restore</td><td>MANUAL</td><td>MAN
