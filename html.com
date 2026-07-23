@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STARKCORE V-DEF // The industry detects. StarkCore enforces.</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@700;900&display=swap');
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#070709;color:#fff;font-family:'JetBrains Mono',monospace}
+  .grid{position:fixed;inset:0;background-image:linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);background-size:40px 40px;z-index:-1}
+  .wrap{max-width:1280px;margin:0 auto;padding:32px}
+  header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #333;padding-bottom:24px;font-size:12px;color:#888;letter-spacing:1px}
+  header strong{color:#fff}
+  .badges{margin:56px 0 40px;display:flex;gap:16px;flex-wrap:wrap}
+  .badge{border:1px solid #fff;padding:6px 14px;font-size:12px;font-weight:700}
+  h1{font-family:'Inter',sans-serif;font-size:clamp(32px,6vw,68px);line-height:0.95;letter-spacing:-2px;font-weight:900;margin-bottom:20px}
+  .sub{max-width:820px;color:#bdbdbd;font-size:16px;line-height:1.6;margin-bottom:36px}
+  .cta{display:flex;gap:16px;margin-bottom:72px;flex-wrap:wrap}
+  .btn{border:1px solid #fff;padding:14px 28px;font-weight:700;font-size:14px;text-transform:uppercase;background:transparent;color:#fff;text-decoration:none;transition:0.2s;display:inline-block}
+  .btn:hover{background:#fff;color:#000}
+  .sep{border-top:1px dashed #333;display:flex;justify-content:center;padding:12px 0;font-weight:700;font-size:13px;letter-spacing:1px;margin-bottom:24px;text-align:center}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{border:1px solid #444;padding:16px 12px;text-align:left}
+  th{text-align:center;color:#888}
+  td:first-child{font-weight:700;color:#fff}
+  td{text-align:center}
+  td:first-child{text-align:left}
+  .highlight{border:2px solid #fff;box-shadow:0 0 20px rgba(255,255,255,0.2);position:relative;background:#0e0e0e}
+  .highlight-label{position:absolute;top:-14px;right:-2px;background:#fff;color:#000;font-size:10px;padding:4px 10px;font-weight:700}
+  .starkcol{background:#101010;font-weight:900}
+  .video-box{margin-top:80px;border:1px solid #333;padding:40px;text-align:center;color:#666}
+  footer{margin-top:64px;border-top:1px solid #222;padding-top:16px;font-size:10px;color:#666;letter-spacing:1px;text-transform:uppercase;line-height:1.6}
+  @media(max-width:800px){table{font-size:11px}th,td{padding:10px 6px}.cta{flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="grid"></div>
+<div class="wrap">
+  <header>
+    <strong>STARKCORE // V-DEF // DEFENSE OPERATIONS</strong>
+    <div style="display:flex;gap:24px"><span>PLATFORM</span><span style="color:#fff">MANIFESTO</span><span style="color:#fff">CONTACT</span></div>
+  </header>
+
+  <div class="badges">
+    <div class="badge">[ DETERMINISTIC ]</div>
+    <div class="badge">[ IMMUTABLE ]</div>
+    <div class="badge">[ VERIFIABLE ]</div>
+  </div>
+
+  <h1>The industry detects. StarkCore enforces.</h1>
+  <p class="sub">
+    Wazuh, Tripwire, Defender, Chronicle detect changes and alert. StarkCore rejects and restores automatically.<br>
+    An autonomous auditor, not a monitoring system.
+  </p>
+
+  <div class="cta">
+    <a class="btn" href="mailto:you@starkcore.tech">[ REQUEST ACCESS ]</a>
+    <a class="btn" href="https://github.com/SolvensAmoris/starkcore-v-def#readme">[ READ MANIFESTO ]</a>
+  </div>
+
+  <div class="sep">=========================== COMPARISON — DETECT VS ENFORCE ===========================</div>
+
+  <div style="overflow-x:auto;padding-top:20px">
+  <table>
+    <tr>
+      <th>CAPABILITY</th><th>WAZUH</th><th>TRIPWIRE</th><th>DEFENDER</th><th>CHRONICLE</th>
+      <th class="highlight"><div class="highlight-label">[ HIGHLIGHTED — V-DEF ]</div>STARKCORE V-DEF ★</th>
+    </tr>
+    <tr><td>Detection / Alert</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td><td class="starkcol">✓</td></tr>
+    <tr><td>Response / Action</td><td>—</td><td>—</td><td>Limited</td><td>—</td><td class="starkcol">AUTOMATIC (AUTONOMOUS)</td></tr>
+    <tr><td>Auto Remediation</td><td>—</td><td>—</td><td>—</td><td>—</td><td class="starkcol">YES — RESTORE TO BASELINE (&lt; 5s)</td></tr>
+    <tr><td>Immutable Audit Log</td><td>—</td><td>✓</td><td>—</td><td>✓</td><td class="starkcol">YES — CRYPTO-VERIFIABLE</td></tr>
+    <tr><td>Autonomous Operation</td><td>—</td><td>—</td><td>—</td><td>—</td><td class="starkcol">YES — SELF-ENFORCING</td></tr>
+    <tr><td>Time to Restore</td><td>MANUAL</td><td>MANUAL</td><td>MANUAL</td><td>MANUAL</td><td class="starkcol">&lt; 5 SECONDS — AUTOMATIC</td></tr>
+  </table>
+  </div>
+
+  <div class="video-box">
+    [ VIDEO LOOP HERE: file_tampered.mp4 → starkcore_restores.mp4 → immutable_log.json ]<br><br>
+    <span style="color:#fff">DO NOT MONITOR. ENFORCE.</span>
+  </div>
+
+  <footer>
+    STARKCORE V-DEF v1.0 // SITE CODE MIT / CORE PRIVATE • BUILT FOR CONTINUOUS ASSURANCE • DEFENSE-GRADE • SEC// CLASS 0001 • AUDIT: IMMUTABLE | VERIFIABLE | DETERMINISTIC
+  </footer>
+</div>
+</body>
+</html>
