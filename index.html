@@ -1,33 +1,17 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>STARKCORE V-DEF // Operativo</title>
+<title>STARKCORE // DEFENSE OPERATIONS</title>
 <style>
-  body{background:#070709;color:#fff;font-family:monospace;margin:0;padding:24px}
-  .wrap{max-width:1000px;margin:0 auto}
-  h1{font-size:48px;line-height:0.9}
-  .badge{border:1px solid #fff;padding:6px 12px;display:inline-block;margin:10px 10px 0;font-size:12px}
-  video{width:100%;max-width:600px;border:1px solid #444;margin:20px 0}
-  a{color:#fff}
-  .card{border:1px solid #333;padding:16px;margin:16px 0}
-</style>
-</head>
-<body>
-<div class="wrap">
-  <h1>STARKCORE V-DEF<br>LITE OPERATIVO</h1>
-  <p>Principio: ¿la etiqueta coincide con la huella?</p>
-  
-  <div>
-    <span class="badge">RESTORE <1S</span>
-    <span class="badge">EVIDENCIA MOVIL</span>
-    <span class="badge">d0864ce LIVE</span>
-  </div>
-
-  <div class="card">
-    <h3>Evidencia en vivo - UserLAnd</h3>
-    <video controls autoplay muted loop playsinline>
-      <source src="https://raw.githubusercontent.com/SolvensAmoris/starkcore-v-def-lite/main/evidence/demo.mp4" type="video/mp4">
-    </video>
-    <p>Si no carga el video: <a href="https://github.com/SolvensAmoris/stark
+:root{--bg:#080a0a;--line:#1e1e1e;--w:#fff;--dim:#8a8a8a}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--w);font-family:JetBrains Mono,monospace,monospace;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:28px 28px;opacity:.22;pointer-events:none}
+.wrap{position:relative;max-width:1180px;margin:0 auto;padding:18px 20px}
+.nav{display:flex;justify-content:space-between;border-bottom:1px solid #222;padding-bottom:14px;font-size:11px;letter-spacing:2px}
+.nav .r{display:flex;gap:22px;color:var(--dim)}
+.tags{display:flex;gap:10px;margin:50px 0 22px;flex-wrap:wrap}
+.tag{border:1px solid #333;padding:5px 12px;font-size:11px;letter-spacing:1px}
+.hero h1{font-size:clamp(32px,5.2vw,56px);line-height
